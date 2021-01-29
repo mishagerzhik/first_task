@@ -7,7 +7,10 @@ console.log(money, time)
 let appData = {
     budget: money,
     timeData: time,
-    expenses: {},
+    expenses: {
+        'a1':'a2',
+        'a3':'a4'
+    },
     optionalExpenses: {},
     income: [],
     saving: false
